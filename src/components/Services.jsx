@@ -43,7 +43,7 @@ const ServicesPage = () => {
             </div>
             <div className="hidden md:block">
               <img
-                src="/cleaning1.jpg"
+                src="./cleaning1.jpg"
                 alt="A sparkling clean kitchen after residential cleaning"
                 width={600}
                 height={400}
@@ -58,7 +58,7 @@ const ServicesPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="hidden md:block">
               <img
-                src="/cleaning2.jpg"
+                src="./cleaning2.jpg"
                 alt="A modern office space being professionally cleaned"
                 width={600}
                 height={400}
@@ -117,7 +117,7 @@ const ServicesPage = () => {
             </div>
             <div className="hidden md:block">
               <img
-                src="/cleaning3.jpg"
+                src="./cleaning3.jpg"
                 alt="A sofa being cleaned with professional upholstery equipment"
                 width={600}
                 height={400}
