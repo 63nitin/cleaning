@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 // A single, reusable link component for both desktop and mobile
 const CustomNavLink = ({ href, children, isMobile = false, onClick }) => (
-  <a
-    href={href}
+  <Link
+    to={href}
     onClick={onClick}
     className={`
       ${isMobile 
@@ -15,7 +15,7 @@ const CustomNavLink = ({ href, children, isMobile = false, onClick }) => (
     `}
   >
     {children}
-  </a>
+  </Link>
 );
 
 const Navbar = () => {
