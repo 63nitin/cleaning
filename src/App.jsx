@@ -6,8 +6,8 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import AboutUsPage from './components/About';
-import Services from './components/Services'; // Create this component if not present
-import Contact from './components/Contact';   // Create this component if not present
+import Services from './components/Services';
+import Contact from './components/Contact'; 
 
 export default function App() {
   return (

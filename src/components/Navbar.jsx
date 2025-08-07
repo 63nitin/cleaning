@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 // Ensure you have your styles imported
 
 // A single, reusable link component for both desktop and mobile
@@ -71,12 +72,12 @@ const Navbar = () => {
                 </CustomNavLink>
               ))}
             </div>
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className=" button ml-4 button py-2 px-4 rounded-2xl bg-blue-400 text-white font-bold shadow transition hover:shadow-md"
             >
               GETTING STARTED
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Hamburger */}
@@ -116,13 +117,13 @@ const Navbar = () => {
               {link.label}
             </CustomNavLink>
           ))}
-          <a
-            href="/contact"
-            onClick={closeMobileMenu}
+          <Link
+            to="/contact"
+              onClick={closeMobileMenu}
             className="p-3 mx-auto button py-2 bg-blue-400 text-white font-semibold rounded-full items-center justify-center shadow transition hover:shadow-lg"
           >
             GETTING STARTED
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
