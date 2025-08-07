@@ -41,7 +41,7 @@ const ServicesPage = () => {
                 </li>
               </ul>
             </div>
-            <div className="hidden md:block">
+            <div className="">
               <img
                 src="./cleaning1.jpg"
                 alt="A sparkling clean kitchen after residential cleaning"
@@ -56,7 +56,7 @@ const ServicesPage = () => {
         {/* Commercial Cleaning Section */}
         <section className="p-8 md:p-12 rounded-3xl shadow-xl mb-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="hidden md:block">
+            <div className="">
               <img
                 src="./cleaning2.jpg"
                 alt="A modern office space being professionally cleaned"
@@ -115,7 +115,7 @@ const ServicesPage = () => {
                 </li>
               </ul>
             </div>
-            <div className="hidden md:block">
+            <div className="">
               <img
                 src="./cleaning3.jpg"
                 alt="A sofa being cleaned with professional upholstery equipment"
