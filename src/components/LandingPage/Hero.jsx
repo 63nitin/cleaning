@@ -4,12 +4,12 @@ const HeroSection = () => {
   return (
     <section
       className={`
-        relative h-screen flex items-center justify-center text-center bg-amber-50
+        relative h-[600px] flex items-center justify-center text-center bg-amber-50
         bg-cover bg-center bg-no-repeat
         before:content-[''] before:absolute before:inset-0 before:bg-black before:opacity-15
       `}
       style={{
-        backgroundImage: "url('/hero.png')",
+        backgroundImage: "url('./hero.png')",
       }}
     >
       <div className="card rounded-3xl relative z-10 p-4 max-w-4xl mx-auto">
