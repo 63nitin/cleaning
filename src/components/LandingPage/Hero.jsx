@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section
       className={`
-        relative h-[600px] flex items-center justify-center text-center bg-amber-50
+        relative h-[500px] flex items-center justify-center text-center bg-amber-50
         bg-cover bg-center bg-no-repeat
         before:content-[''] before:absolute before:inset-0 before:bg-black before:opacity-15
       `}
