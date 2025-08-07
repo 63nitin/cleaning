@@ -1,6 +1,7 @@
 // components/AboutUsPage.js
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
+import { Link } from 'react-router';
 
 const AboutUsPage = () => {
   return (
@@ -91,8 +92,8 @@ const AboutUsPage = () => {
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Experience the difference of a truly professional clean. We stand behind our work with a 100% satisfaction guarantee.
           </p>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="button inline-block py-3 px-8 rounded-full bg-blue-500 text-white font-bold
                      text-lg shadow-[0px_0px_20px_rgba(59,130,246,0.5)]
                      transition-all duration-300 ease-in-out
@@ -100,7 +101,7 @@ const AboutUsPage = () => {
                      transform hover:-translate-y-1"
           >
             BOOK YOUR SERVICE TODAY
-          </a>
+          </Link>
         </section>
       </div>
     </div>

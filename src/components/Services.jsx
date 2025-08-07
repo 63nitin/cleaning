@@ -1,6 +1,7 @@
 // components/ServicesPage.js
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
+import { Link } from 'react-router';
 
 const ServicesPage = () => {
   return (
@@ -136,8 +137,8 @@ const ServicesPage = () => {
           <p>
             We&apos;ll take care of your cleaning needs so you can focus on what matters most.
           </p>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="button inline-block py-3 px-8 rounded-full bg-blue-500 text-white font-bold
                      text-lg shadow-[0px_0px_20px_rgba(59,130,246,0.5)]
                      transition-all duration-300 ease-in-out
@@ -145,7 +146,7 @@ const ServicesPage = () => {
                      transform hover:-translate-y-1"
           >
             GET A FREE QUOTE
-          </a>
+          </Link>
         </section>
       </div>
     </div>
